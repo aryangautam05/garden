@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cookies Policy - GreenLeaf Gardening Services</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Open+Sans&display=swap');
+  :root {
+    --primary-green: #2c6e49;
+    --secondary-green: #4ca16d;
+    --light-green: #daf1e7;
+    --dark-green: #1b4332;
+    --text-color: #333;
+    --background-color: #f9f9f9;
+    --font-serif: 'EB Garamond', serif;
+    --font-sans: 'Open Sans', sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0 0 100px; /* Leave space for cookie dialog */
+    font-family: var(--font-sans);
+    color: var(--text-color);
+    background-color: var(--background-color);
+    line-height: 1.7;
+    letter-spacing: 0.02em;
+    padding: 40px 20px 60px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header {
+    background: linear-gradient(135deg, var(--primary-green), var(--secondary-green));
+    color: white;
+    padding: 40px 20px 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.15);
+    border-radius: 12px;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-family: var(--font-serif);
+    font-weight: 700;
+    font-size: 3rem;
+    margin: 0 0 8px;
+    letter-spacing: 0.08em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  }
+  header h2 {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.25);
+  }
+  h1.page-title {
+    font-family: var(--font-serif);
+    color: var(--primary-green);
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    letter-spacing: 0.06em;
+    text-align: center;
+  }
+  h2 {
+    font-family: var(--font-serif);
+    color: var(--primary-green);
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.9rem;
+    border-bottom: 3px solid var(--secondary-green);
+    padding-bottom: 6px;
+    letter-spacing: 0.05em;
+  }
+  p {
+    font-size: 1.12rem;
+    margin-bottom: 18px;
+  }
+  ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  a {
+    color: var(--secondary-green);
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  footer {
+    margin-top: 60px;
+    border-top: 1px solid #c1d4ca;
+    padding-top: 12px;
+    text-align: center;
+    font-size: 0.95rem;
+    color: #648b7f;
+    font-family: var(--font-sans);
+  }
+  /* Cookie Consent Dialog Styles */
+  #cookie-consent {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--primary-green);
+    color: white;
+    padding: 20px 25px;
+    box-shadow: 0 -3px 8px rgba(0,0,0,0.3);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--font-sans);
+    z-index: 9999;
+  }
+  #cookie-consent p {
+    flex: 1 1 60%;
+    margin: 0 20px 0 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+  }
+  #cookie-consent button {
+    background: var(--secondary-green);
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  #cookie-consent button:hover {
+    background: var(--light-green);
+    color: var(--primary-green);
+  }
+  #cookie-consent button#decline-btn {
+    background: #a33a3a;
+  }
+  #cookie-consent button#decline-btn:hover {
+    background: #e27373;
+    color: #731919;
+  }
+  @media (max-width: 600px) {
+    #cookie-consent {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    #cookie-consent p {
+      flex: 1 1 100%;
+      margin: 0 0 12px 0;
+    }
+    #cookie-consent button {
+      margin-left: 0;
+      margin-right: 10px;
+      width: 100%;
+      padding: 12px 0;
+    }
+    #cookie-consent button + button {
+      margin-top: 8px;
+    }
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>GreenLeaf Gardening Services</h1>
+    <h2>Cookies Policy</h2>
+  </header>
+
+  <h1 class="page-title">Cookies Policy</h1>
+
+  <p>Last updated: June 2024</p>
+
+  <p>At GreenLeaf Gardening Services ("we," "us," or "our"), we use cookies and similar tracking technologies on our website to enhance your browsing experience, analyze site traffic, and deliver personalized content. This Cookies Policy explains what cookies are, how we use them, and your choices regarding cookies.</p>
+
+  <h2>1. What Are Cookies?</h2>
+  <p>Cookies are small text files placed on your device (computer, tablet, or mobile) by websites you visit. They are widely used to make websites work efficiently and provide information to site owners.</p>
+  <p>Cookies can be "session cookies" that disappear when you close your browser or "persistent cookies" that stay on your device for a set period or until you delete them.</p>
+
+  <h2>2. Types of Cookies We Use</h2>
+  <ul>
+    <li><strong>Strictly Necessary Cookies:</strong> These cookies are essential for the operation of our website and enable you to navigate and use its features safely. Without these cookies, certain services cannot be provided.</li>
+    <li><strong>Performance Cookies:</strong> These cookies collect anonymous information on how visitors use our website, such as pages visited and error messages. They help us improve the site’s functionality and user experience.</li>
+    <li><strong>Functional Cookies:</strong> These cookies remember choices you make (like language settings) to provide a more personalized experience.</li>
+    <li><strong>Targeting or Advertising Cookies:</strong> These cookies track your browsing habits to deliver relevant advertisements or marketing messages on our site or third-party platforms.</li>
+  </ul>
+
+  <h2>3. How We Use Cookies</h2>
+  <p>We use cookies to:</p>
+  <ul>
+    <li>Ensure the proper functioning of our website.</li>
+    <li>Improve our services by analyzing user behavior and preferences.</li>
+    <li>Remember your preferences and settings to enhance your experience.</li>
+    <li>Provide personalized marketing and advertising relevant to your interests.</li>
+    <li>Enhance security and prevent fraudulent activities.</li>
+  </ul>
+
+  <h2>4. Third-Party Cookies</h2>
+  <p>Some cookies on our site are set by third-party service providers such as analytics and advertising platforms. These third parties may collect information about your online activities across multiple websites and use it for advertising and analytics purposes.</p>
+  <p>We do not control these third-party cookies and recommend reviewing their privacy policies and cookie settings.</p>
+
+  <h2>5. Your Choices Regarding Cookies</h2>
+  <p>You can manage your cookie preferences by adjusting your browser settings. Most browsers allow you to refuse or delete cookies; however, disabling cookies may affect your experience on our website and limit access to some features.</p>
+  <p>Additionally, you can control advertising cookies through industry tools such as the Network Advertising Initiative’s opt-out page or the Digital Advertising Alliance’s Consumer Choice page.</p>
+
+  <h2>6. Consent and Changes to This Policy</h2>
+  <p>When you first visit our site, you will be prompted to accept or decline cookies using the consent dialog at the bottom of this page. Your preference will be stored locally to respect your choice for future visits.</p>
+  <p>We may update this Cookies Policy from time to time to reflect changes in technology, legal requirements, or our practices. We encourage you to review this policy periodically.</p>
+
+  <h2>7. Contact Us</h2>
+  <p>If you have questions or concerns about our use of cookies, please contact us:</p>
+  <p><strong>Email:</strong> <a href="mailto:privacy@greenleafgardening.com">privacy@greenleafgardening.com</a></p>
+  <p><strong>Phone:</strong> +1 (234) 567-890</p>
+  <p><strong>Address:</strong> 123 Greenway Blvd, Garden City, GA 30303</p>
+
+  <footer>
+    &copy; 2024 GreenLeaf Gardening Services. All rights reserved.
+  </footer>
+
+  <div id="cookie-consent" role="dialog" aria-live="polite" aria-label="Cookies consent">
+    <p>We use cookies to enhance your experience, analyze site traffic, and deliver personalized content. Do you accept the use of cookies?</p>
+    <div>
+      <button id="accept-btn" aria-label="Accept cookies">Accept</button>
+      <button id="decline-btn" aria-label="Decline cookies">Decline</button>
+    </div>
+  </div>
+
+<script>
+  (function() {
+    // Check if cookie consent already stored
+    function setCookie(name, value, days) {
+      var expires = "";
+      if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+      }
+      document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    function getCookie(name) {
+      var nameEQ = name + "=";
+      var ca = document.cookie.split(';');
+      for(var i=0;i < ca.length;i++) {
+          var c = ca[i];
+          while (c.charAt(0)==' ') c = c.substring(1,c.length);
+          if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+      }
+      return null;
+    }
+    function hideConsent() {
+      var consent = document.getElementById('cookie-consent');
+      if(consent) {
+        consent.style.display = 'none';
+      }
+    }
+
+    var consentGiven = getCookie('greenleaf_cookie_consent');
+    if(consentGiven === 'accepted' || consentGiven === 'declined') {
+      // Already decided
+      hideConsent();
+    } else {
+      // Show consent box
+      var acceptBtn = document.getElementById('accept-btn');
+      var declineBtn = document.getElementById('decline-btn');
+      acceptBtn.addEventListener('click', function(){
+        setCookie('greenleaf_cookie_consent', 'accepted', 365);
+        hideConsent();
+      });
+      declineBtn.addEventListener('click', function(){
+        setCookie('greenleaf_cookie_consent', 'declined', 365);
+        hideConsent();
+      });
+    }
+  })();
+</script>
+</body>
+</html>
